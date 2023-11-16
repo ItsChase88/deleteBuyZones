@@ -9,4 +9,4 @@ A simple CSSharp plugin to delete all buyzones for a map.
 3. Unzip and upload to the /game/ folder of your server.
 
 # Credits
-Thank you to steveo_aus on discord for the idea!
+Thank you to steveo_aus on the CSSharp discord for the idea!
