@@ -1,5 +1,5 @@
 # deleteBuyZones
-A simple CSSharp plugin to delete all buyzones for a map.
+A simple CSSharp plugin (Compiled using v43) to delete all buyzones for a map.
 
 # Installation
 1. Install [Metamod:Source](https://www.sourcemm.net/downloads.php/?branch=master) and [CounterStrike Sharp](https://github.com/roflmuffin/CounterStrikeSharp).
