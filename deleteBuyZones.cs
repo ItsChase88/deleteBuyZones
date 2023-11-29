@@ -15,7 +15,7 @@ public class deleteBuyZones : BasePlugin {
     public override string ModuleName => "Delete Buyzones";
     public override string ModuleAuthor => "Chase88";
     public override string ModuleDescription => "This is a simple plugin that will delete all buyzones on a map.";
-    public override string ModuleVersion => "1.0.0";
+    public override string ModuleVersion => "1.0.1";
 
     // Load function - Called when the plugin is loaded
     public override void Load(bool hotReload) {
@@ -27,8 +27,11 @@ public class deleteBuyZones : BasePlugin {
 
             //Loop through each zone in the buyZone
             foreach(var zone in buyZones) {
-                //Delete the buyzone.
-                zone.Remove();
+                //Check to see if entity is valid.
+                if(zone.IsValid) {
+                    //Delete the buyzone.
+                    zone.Remove();
+                }
             }
 
             //Return and allow Event to continue.
