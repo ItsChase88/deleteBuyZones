@@ -4,7 +4,6 @@
 
 using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
-using CounterStrikeSharp.API.Core.Attributes.Registration;
 
 // Specify the namespace for the plugin
 namespace deleteBuyZones;
@@ -15,7 +14,7 @@ public class deleteBuyZones : BasePlugin {
     public override string ModuleName => "Delete Buyzones";
     public override string ModuleAuthor => "Chase88";
     public override string ModuleDescription => "This is a simple plugin that will delete all buyzones on a map.";
-    public override string ModuleVersion => "1.0.1";
+    public override string ModuleVersion => "1.1.0";
 
     // Load function - Called when the plugin is loaded
     public override void Load(bool hotReload) {
